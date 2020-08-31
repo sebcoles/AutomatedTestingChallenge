@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AutomatedTestingChallenge.Logic/1.0.0": {
+        "runtime": {
+          "AutomatedTestingChallenge.Logic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutomatedTestingChallenge.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

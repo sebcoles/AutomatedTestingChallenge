@@ -1,0 +1,12 @@
+﻿@model CalcModel
+
+<form asp-controller="Calculator" asp-action="Add" method="post">
+    number1:  <input id="num1" asp-for="num1" /> <br />
+    number2: <input id="num2" asp-for="num2" /><br />
+    <button id="submit" type="submit">Add</button>
+</form>
+
+@if(Model.result != null)
+{
+    <p>answer is <div id="result">@Model.result</div></p>
+}
